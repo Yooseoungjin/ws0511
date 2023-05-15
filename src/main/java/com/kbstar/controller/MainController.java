@@ -25,4 +25,9 @@ public class MainController {
         model.addAttribute("center", "register");
         return "index";
     };
+    @RequestMapping("/qna")
+    public String qna(Model model) {
+        model.addAttribute("center", "qna");
+        return "index";
+    };
 }
